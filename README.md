@@ -4,3 +4,7 @@
 - [x] Part 1
 - [ ] Part 2
 
+#### Day 2
+- [X] Part 1
+- [ ] Part 2
+
