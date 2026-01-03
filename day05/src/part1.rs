@@ -14,11 +14,12 @@ pub fn determine_fresh_ingredients() {
         .collect::<Vec<Ingredient>>();
 
     ingredients.iter_mut().for_each(|ing| {
-        ranges.iter().for_each(|rng| {
-            if rng.0 <= ing.0 && rng.1 >= ing.0 {
+        ranges
+            .iter()
+            .find(|rng| rng.0 <= ing.0 && rng.1 >= ing.0)
+            .map(|_| {
                 ing.1 = true;
-            }
-        });
+            });
     });
 
     println!(
