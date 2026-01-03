@@ -11,3 +11,7 @@
 #### Day 3
 - [x] Part 1
 - [ ] Part 2
+
+#### Day 4
+- [x] Part 1
+- [ ] Part 2
