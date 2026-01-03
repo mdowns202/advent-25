@@ -1,4 +1,4 @@
-use day01::{ part1, part2 };
+use day01::{part1, part2};
 
 fn main() {
     println!("=== Day 1 | Part 1 ===");

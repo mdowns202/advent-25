@@ -1,4 +1,4 @@
-use super::part1::{get_instructions, Instruction, Lock};
+use super::part1::{Instruction, Lock, get_instructions};
 
 pub fn solve_with_secret_method() {
     let mut lock = Lock::new();
