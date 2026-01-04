@@ -19,3 +19,7 @@
 #### Day 5
 - [x] Part 1
 - [ ] Part 2
+
+#### Day 6
+- [x] Part 1
+- [ ] Part 2
